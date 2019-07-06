@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Pranav's Short Quiz</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body>
+    
+    <h1> This Is The Best Quiz On Internet!  (For Real!)</h1>
+
+<form id = "quiz" name = "quiz">
+
+<p> How Many Union Territory Does India Have? (In Words)</p>
+<input id="textbox" type ="text" name="Question1">
+
+<p> Who wrote the Indian Constitution?</p>
+<input type="radio" id ="mc"  name ="Question2" value ="Dr. BabaSaheb Ambedkar"> Dr. BabaSaheb Ambedkar<br>
+<input type="radio" id ="mc"  name ="Question2" value ="Dr.Jawaharlal Nehru"> Dr.Jawaharlal Nehru<br>
+<input type="radio" id ="mc"  name ="Question2" value ="Dr.Subhash Chandra Bose"> Dr.Subhash Chandra Bose<br>
+
+<p> When did India got Independence?</p>
+<input type="radio" id ="mc"  name ="Question3"value ="26th January 1950"> 26th January 1950<br>
+<input type="radio" id ="mc"  name ="Question3"value ="15th August 1947"> 15th August 1947<br>
+<input type="radio" id ="mc"  name ="Question3"value ="31st May 1932"> 31st May 1932<br>
+
+<br>
+
+<input id="button" type="button" value="I'm Finished!" onclick="check();">
+
+
+</form>
+
+<div id ="after_submit">
+
+<p id = "messages"></p>
+<p id= "number_correct"></p>
+<img id = "picture">
+</div>
+</body>
+
+</html>
